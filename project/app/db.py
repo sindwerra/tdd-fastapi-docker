@@ -9,7 +9,7 @@ from tortoise import Tortoise, run_async  # new
 from tortoise.contrib.fastapi import register_tortoise
 
 
-log = logging.getLogger("uvicorn") # new
+log = logging.getLogger("uvicorn")  # new
 
 
 TORTOISE_ORM = {
